@@ -6,9 +6,9 @@ export const HomePage = () => {
 
     return (
       <>
-          <h1>Home Page <span><small>:{user.username}</small></span></h1>
+          <h1>Home Page <span><small>:{user?.username}</small></span></h1>
           <hr />
-          <pre>
+          <pre aria-label="pre">
             { JSON.stringify(user)}
           </pre>
       </>
