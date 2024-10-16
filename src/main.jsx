@@ -16,6 +16,7 @@ import { MemoPadre } from './components/MemoPadre';
 
 import { TodoApp } from './Todo/TodoApp';
 import { ContextApp } from './ContextApp/ContextApp';
+import { HookApp } from './components/HookApp';
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
@@ -28,9 +29,11 @@ createRoot(document.getElementById('root')).render(
     {/* <SetFocus></SetFocus> */}
     {/* <MemoPadre></MemoPadre> */}
     {/* <TodoApp></TodoApp> */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <ContextApp />
     </BrowserRouter>
-    </>
+    */}
+    <HookApp/>
+    </> 
   // </StrictMode>,
 )

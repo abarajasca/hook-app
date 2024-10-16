@@ -12,7 +12,7 @@ export const FormWithHook = ( ) => {
     
     return (
       <>
-          <h1>Formulario Simple</h1>
+          <h1>Formulario Simple with Hooks</h1>
           <hr />
           <input 
               type="text"

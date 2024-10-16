@@ -36,18 +36,24 @@ export const SimpleForm = () => {
         <input 
             type="text"
             className="form-control"
-            placeholder='Username'
+            placeholder='Username (use abc and see)'
             value={username}
             onChange={onInputChange}
             name="username"/>
         <input 
             type="email"
             className="form-control mt-2"
-            placeholder="fernando@google.com"
+            placeholder="Email"
             value={email}
             onChange={onInputChange}
             name="email"
-            ></input>    
+            ></input>
+
+        <button className="btn btn-primary mt-2"
+          onClick={() =>  setFormState({ username: '', email: ''}) }
+          >
+          Reset
+          </button>        
 
             {
               (username === "abc") && <Message></Message>

@@ -35,8 +35,6 @@ export const MultipleCustomHooks = () => {
          )
      }
 
-      
-      
       <button className="btn btn-primary mt-2"
         onClick={() => decrement(1) }
       >Anterior</button> 
